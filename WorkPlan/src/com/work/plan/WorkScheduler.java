@@ -17,8 +17,8 @@ public class WorkScheduler
     public static void main(String[] args) throws WorkItemBadInputException, WorkItemNotFoundException
     {
         WorkItems lItems1 = createWorkItems();
-        for(WorkItem item : lItems1.getItems() ) {
-           item.computeSize(lItems1);
+        for(WorkItem item1 : lItems1.getItems() ) {
+           item1.computeSize(lItems1);
         }
         
         createPlan(lItems1);
