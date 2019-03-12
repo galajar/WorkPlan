@@ -8,10 +8,10 @@ public class WorkItemComparitor implements Comparator<WorkItem> {
 
 
 @Override
-public int compare(WorkItem arg0, WorkItem arg1)
+public int compare(WorkItem arg0, WorkItem arg2)
 {
     // TODO Auto-generated method stub
-    return arg0.getSize() - arg1.getSize();
+    return arg0.getSize() - arg2.getSize();
 }
 
 }
