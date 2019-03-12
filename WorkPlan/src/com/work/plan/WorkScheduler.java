@@ -16,12 +16,12 @@ public class WorkScheduler
 
     public static void main(String[] args) throws WorkItemBadInputException, WorkItemNotFoundException
     {
-        WorkItems lItems = createWorkItems();
-        for(WorkItem item : lItems.getItems() ) {
-           item.computeSize(lItems);
+        WorkItems lItems1 = createWorkItems();
+        for(WorkItem item : lItems1.getItems() ) {
+           item.computeSize(lItems1);
         }
         
-        createPlan(lItems);
+        createPlan(lItems1);
 
     }
     
